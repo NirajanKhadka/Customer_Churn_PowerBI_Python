@@ -14,13 +14,13 @@
 
 ---
 
-### 📌 Project Overview
+### Project Overview
 
 This project focuses on predicting customer churn (i.e., identifying customers likely to leave a service) using historical data. It combines Python for data preprocessing, machine learning, and Power BI for creating interactive dashboards, enabling organizations to take proactive measures for customer retention.
 
 ---
 
-### 🔍 Key Features
+### Key Features
 
 - **Data Exploration**: Analyze customer demographics, transaction behaviors, and churn patterns using Python.
 - **Machine Learning Model**: Build a predictive model for churn classification with Scikit-learn.
@@ -29,7 +29,7 @@ This project focuses on predicting customer churn (i.e., identifying customers l
 
 ---
 
-### 🧑‍💻 Technologies Used
+### Technologies Used
 
 - **Python**: For data preprocessing, analysis, and building machine learning models.
 - **Power BI**: For designing and publishing an interactive dashboard.
@@ -40,7 +40,7 @@ This project focuses on predicting customer churn (i.e., identifying customers l
 
 ---
 
-### 📊 Dataset
+### Dataset
 
 The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/anwarsan/credit-card-bank-churn), includes customer demographic data, transaction information, and churn status. Key columns in the dataset:
 
@@ -52,7 +52,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/anwarsan/cred
 
 ---
 
-### 🔍 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 - **Income Category vs. Card Category**: Most customers prefer Blue cards, regardless of income.
 - **Income vs. Credit Utilization**: Higher income correlates with lower credit utilization.
@@ -66,7 +66,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/anwarsan/cred
 
 ---
 
-### 🔬 Model Building
+### Model Building
 
 - **Label Encoding**: Applied to categorical columns to convert them into numerical format.
 - **Train-Test Split**: Data split into training (80%) and testing (20%) sets.
@@ -88,7 +88,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/anwarsan/cred
 
 ---
 
-### 🔮 Predictions & Results
+### Predictions & Results
 
 - **Best Model**: After tuning, Gradient Boosting provided the best results for predicting churn.
 - **Output**: The model outputs churn predictions, probabilities, and actual results.
@@ -100,7 +100,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/anwarsan/cred
 
 ---
 
-### 📂 Output File
+### Output File
 
 The results are stored in a CSV file (`ChurnPredictionsOutput.csv`), containing:
 
@@ -114,7 +114,7 @@ This CSV file can be imported into Power BI for visualization and further analys
 ---
 
 
-### 📊 Power BI Dashboard
+### Power BI Dashboard
 
 The **Power BI dashboard** provides a comprehensive, interactive view of the churn predictions and analysis. It includes several key features and visualizations that allow users to explore churn patterns and analyze the data.
 
@@ -131,7 +131,7 @@ This section visualizes the churn rate segmented by different factors such as in
 
 ![Churn Rate by Factors]
 <p align="center">
-  <img src="images/BI_factors.png>
+  <img src="images/BI_factors.png">
 </p>)
 
 ### 3. **Churn Prediction Dashboard**  
@@ -139,12 +139,12 @@ This is the core of the Power BI dashboard, where the churn prediction model is 
 
 ![Churn Prediction Dashboard]
 <p align="center">
-  <img src="images/Churn_prediction_Dashboard.png>
+  <img src="images/Churn_prediction_Dashboard.png">
 </p>)
 
 These visualizations enable businesses to take actionable insights based on real-time churn predictions and make data-driven decisions to reduce customer attrition.
 
 
-### 🔚 Conclusion
+### Conclusion
 
 This project demonstrates a powerful approach to predicting customer churn and visualizing insights using both machine learning and interactive Power BI dashboards. By leveraging Python for data analysis and model building, and Power BI for visualization, businesses can proactively address churn and improve customer retention strategies.
